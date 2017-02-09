@@ -15,6 +15,7 @@ namespace MShop.Model.Models
         public int OrderID { set; get; }
         [Key]
         public int ProductID { set; get; }
+
         public int Quantity { set; get; }
 
         [ForeignKey("OrderID")]
